@@ -1,5 +1,5 @@
 resource "aws_instance" "new" {
-  ami           = var.ami_id
+  ami             = var.ami_id
   instance_type = var.instance_type
 
   tags = {
